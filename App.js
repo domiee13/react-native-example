@@ -6,7 +6,6 @@ import CategoryListItem from './components/CategoryListItem';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello Motherfucker, it's me, Domieeeeee</Text>
       <CategoryListItem></CategoryListItem>
     </View>
   );
@@ -16,7 +15,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'stretch',
     justifyContent: 'center',
+    paddingLeft: 16,
+    paddingRight: 16
   },
 });
